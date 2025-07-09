@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collatz Problemi</title>
+</head>
+<body>
+    <h1>Collatz Problemi</h1>
+    
+    <script>
+    console.log("start");
+
+    let maxLength = 0;      
+    let numberWithMax = 0;  
+
+    for (let i = 1; i < 1000000; i++) {
+      let n = i;        
+      let count = 1;  
+
+      while (n !== 1) {
+        if (n % 2 === 0) {
+          n = n / 2;    
+        } else {
+          n = 3 * n + 1; 
+        }
+        count++;
+      }
+
+      if (count > maxLength) {
+        maxLength = count;
+        numberWithMax = i;
+      }
+    }
+
+    console.log(`En uzun zinciri üreten sayı: ${numberWithMax}`);
+    console.log(`Zincir uzunluğu: ${maxLength}`);
+  </script>
+</body>
+</html>
