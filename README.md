@@ -2,13 +2,9 @@
 
 <h6 align="center"> [Bu repo, Insider&Testinium Tech Hub Developer Bootcamp ödevi için yapılmıştır.]</h6>   
 
+![collatz](https://github.com/user-attachments/assets/55049e7f-9e3c-4d00-ba9d-df888c90260e)
 
-
-<br>
-<b><em>İncelediğiniz için teşekkür ederim... <br>
-Ruken ERPOLAT </em></b>
-
-<br>
+<b><em>Ruken ERPOLAT </em></b>
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-827a67?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rukenerpolat)
 [![Medium](https://img.shields.io/badge/-Medium-827a67?style=flat&logo=medium&logoColor=white)](https://medium.com/@rukenerpolat)
